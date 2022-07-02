@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665792141063",
+    "project_id": "unitedtravelers-9b656",
+    "storage_bucket": "unitedtravelers-9b656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665792141063:android:65aec8da60b1095ea297a2",
+        "android_client_info": {
+          "package_name": "com.unitedtraveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665792141063-ahdlnh499qktul1nej6mkkscq21ansc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWIwJBk7zwng5BhOJdT-UnU337vKgqOxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665792141063-ahdlnh499qktul1nej6mkkscq21ansc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
