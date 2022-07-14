@@ -41,7 +41,7 @@ import {TouchableOpacity as Touch} from 'react-native-gesture-handler';
 import {useBottomTabBarHeight} from '@react-navigation/bottom-tabs';
 // import messaging from '@react-native-firebase/messaging';
 import {heightPercentageToDP} from 'react-native-responsive-screen';
-import DateTimePickerModal from 'react-native-modal-datetime-picker';
+// import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import moment from 'moment';
 const Home = ({navigation}) => {
   const flatListRef = React.useRef();
