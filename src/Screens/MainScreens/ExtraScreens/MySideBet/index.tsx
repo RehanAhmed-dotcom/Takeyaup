@@ -64,6 +64,8 @@ const MySideBet = ({navigation, route}) => {
           style={{
             marginLeft: 15,
             fontFamily: 'Nunito-Regular',
+            // backgroundColor: 'red',
+            height: 150,
             fontSize: 16,
             color: 'black',
           }}

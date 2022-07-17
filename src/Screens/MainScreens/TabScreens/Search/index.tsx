@@ -867,7 +867,7 @@ const Search = ({navigation}) => {
           />
         </View>
 
-        <TouchableOpacity onPress={() => toTop()}>
+        <TouchableOpacity>
           <Image
             source={require('../../../../Images/takeup.png')}
             style={{height: 20, width: 20}}

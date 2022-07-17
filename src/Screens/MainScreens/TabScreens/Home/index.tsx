@@ -476,14 +476,14 @@ const Home = ({navigation}) => {
             }}>
             <TouchableOpacity
               onPress={() => {
-                rej({Auth: userData.token, bet_id: Id.id})
-                  .then(res => {
-                    // console.log('res', res);
-                    setChange(!change);
-                  })
-                  .catch(err => {
-                    console.log('err', err);
-                  });
+                // rej({Auth: userData.token, bet_id: Id.id})
+                //   .then(res => {
+                //     // console.log('res', res);
+                //     setChange(!change);
+                //   })
+                //   .catch(err => {
+                //     console.log('err', err);
+                //   });
                 setModalVisible(!modalVisible);
               }}
               style={{alignItems: 'center', justifyContent: 'center'}}>
@@ -706,7 +706,7 @@ const Home = ({navigation}) => {
           size={20}
           color="#50D240"
         /> */}
-        <TouchableOpacity onPress={() => toTop()}>
+        <TouchableOpacity>
           <Image
             source={require('../../../../Images/takeup.png')}
             style={{height: 20, width: 20}}
